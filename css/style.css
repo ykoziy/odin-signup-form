@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Norse Bold';
+  src: url(/font/Norse-Bold.otf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: burlywood;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+section:nth-child(1) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  background-image: url(/img/green-leaf-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2f4117;
+}
+
+.logo-bar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.36);
+  top: 25%;
+  width: 100%;
+}
+
+.logo-bar > div {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-bar > div img {
+  height: 130px;
+  width: 98px;
+}
+
+.logo-bar > div h1 {
+  font-family: 'Norse Bold';
+  font-size: 10rem;
+  color: white;
+  width: 100%;
+}
+
+.credits {
+  position: absolute;
+  color: #b5b5b5;
+  bottom: 10px;
+}
+
+.credits p {
+  font-size: 1.1rem;
+}
+
+.credits a {
+  color: inherit;
+}
+
+section:nth-child(2) {
+  display: flex;
+  flex: 2;
+  background-color: green;
+}
