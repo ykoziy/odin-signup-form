@@ -3,6 +3,12 @@
   <head>
     <title>Sign-up now!</title>
     <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -28,7 +34,48 @@
           </p>
         </div>
       </section>
-      <section>huis</section>
+      <section>
+        <div>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started. You know you want to.
+        </div>
+        <div>
+          <h1>Let's do this!</h1>
+          <form id="register-form">
+            <div class="col">
+              <label for="fist-name">
+                <span>first name</span>
+                <input type="text" id="first-name" />
+              </label>
+              <label for="email">
+                <span>email</span>
+                <input type="text" id="email" />
+              </label>
+              <label for="password">
+                <span>password</span>
+                <input type="password" id="password" class="error" />
+              </label>
+              <p class="error-msg">* Passwords do not match</p>
+            </div>
+            <div class="col">
+              <label for="last-name">
+                <span>last name</span>
+                <input type="text" id="last-name" />
+              </label>
+              <label for="phone-number">
+                <span>phone number</span>
+                <input type="text" id="phone-number" />
+              </label>
+              <label for="confirm-password">
+                <span>confirm password</span>
+                <input type="password" id="confirm-password" class="error" />
+              </label>
+            </div>
+          </form>
+        </div>
+        <div>CALL TO ACTION</div>
+      </section>
     </main>
   </body>
 </html>
